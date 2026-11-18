@@ -673,7 +673,7 @@ Add `--repository testpypi` for TestPyPI.
    tests the wheels and the sdist, publishes them as a GitHub pre-release and,
    with index publishing enabled, uploads the wheels to TestPyPI.
 2. Date the version's section in `CHANGELOG.md` (`## [0.1.0] - YYYY-MM-DD`)
-   in a pull request to `main`. The next release's section,
+   and update `version` and `date-released` in `CITATION.cff` in a pull request    to `main`. The next release's section,
    `## [X.Y.Z] - Unreleased`, starts with the first change after the tag.
 3. Tag `v0.1.0` on `main`; with index publishing enabled, its wheels go to
    PyPI.
