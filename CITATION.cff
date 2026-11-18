@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata below.
+type: software
+title: cudaq-pulse
+abstract: Pulse-level MLIR dialect and programming model for quantum control
+authors:
+  - name: NVIDIA Corporation
+version: 0.1.0
+date-released: 2026-11-13
+license: Apache-2.0
+repository-code: https://github.com/NVIDIA/cudaq-pulse
+url: https://nvidia.github.io/cudaq-pulse/
+keywords:
+  - quantum
+  - pulse
+  - quantum control
+  - MLIR
+  - compiler
+  - CUDA-Q
+  - cuDensityMat
